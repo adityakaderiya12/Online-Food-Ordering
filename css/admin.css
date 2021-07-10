@@ -1,0 +1,132 @@
+/*admin.css 
+Author :Aditya kaderiya;
+Theme:Food ordering website;
+version:1.0;
+*/
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .wrapper{
+       
+        padding: 1%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .textcenter{
+        text-align: center;
+
+    }
+    .clearfix{
+        float:none;
+        clear: both;
+    }
+    .tbl-full{
+        width : 100%;
+    }
+    .tbl-30{
+        width:30%;
+    }
+    table tr th{
+        border-bottom: 1px solid black;
+        padding:1%;
+        text-align: left;
+        
+    }
+    table tr td{
+padding : 1%;
+    }
+    .btn-primary {
+        background-color: rgb(38, 79, 194);
+        padding:1%;
+        color:rgb(10, 9, 9);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-primary:hover{
+        background-color: teal;
+
+    }
+    .btn-secondary {
+        background-color: rgb(166, 177, 243);
+        padding:1%;
+        color:rgb(37, 8, 8);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-secondary:hover{
+        background-color: rgb(0, 9, 128);
+    }
+
+        
+        .btn-danger{
+            background-color: rgb(221, 13, 13);
+            padding:1%;
+            color:rgb(218, 190, 190);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-danger:hover{
+            background-color: rgb(179, 60, 24);  
+        }
+           
+            .success{
+                color:#0e0f0e;
+            }
+        .error{
+            color:#f00b1e;
+
+             }
+    /*css for menu */
+    .menu{
+        text-align: center;
+       border-bottom:1px solid rgb(253, 77, 77);
+    }
+    .menu ul {
+        list-style-type: none;
+
+    }
+    .menu ul li{
+        display: inline;
+        padding:1%;
+    }
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(11, 10, 15);
+
+}
+.menu ul li a:hover{
+    color:rgb(44, 44, 36);
+}
+/*css for main content*/
+.main-content{
+    
+    background-color:rgb(189, 144, 248);
+    padding:3% 0;
+
+}
+.col-4{
+    width:18%;
+    background-color:white;
+    margin :1%;
+    padding:2%;
+    float:left;
+}
+
+    /*css for footer */
+
+.footer{
+    background-color: rgb(130, 181, 214);
+color:rgb(17, 3, 3);
+}
+
+/*css for login */
+.login {
+    border : 1px solid gray;
+    width :20%;
+    margin:10% auto;
+    padding: 2%;
+}
